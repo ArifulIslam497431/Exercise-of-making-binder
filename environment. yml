@@ -1,0 +1,17 @@
+name: manimgl-binder
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pycairo
+  - pango
+  - ffmpeg
+  - texlive
+  - scipy
+  - numpy
+  - pillow
+  - matplotlib
+  - ipykernel
+  - pip:
+    - manimgl
