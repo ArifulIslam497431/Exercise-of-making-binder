@@ -1,2 +1,2 @@
-# This script runs after the environment is built
-manimgl --version
+#!/bin/bash
+python -c "import manimlib; print('ManimGL imported successfully')"
